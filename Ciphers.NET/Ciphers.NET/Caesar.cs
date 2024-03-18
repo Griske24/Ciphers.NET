@@ -41,9 +41,9 @@ namespace Ciphers.NET
         /// <summary>
         /// Decrypts a message encrypted with the Caesar cipher with selected key and alphabet.
         /// </summary>
-        /// <param name="message">The message to dencrypt.</param>
-        /// <param name="key">The key to use for the dencryption. The key value will be adjusted to be within the range of the alphabet length.</param>
-        /// <param name="alphabet">The alphabet to use for the dencryption. Default is the English alphabet.</param>
+        /// <param name="message">The message to decrypt.</param>
+        /// <param name="key">The key to use for the decryption. The key value will be adjusted to be within the range of the alphabet length.</param>
+        /// <param name="alphabet">The alphabet to use for the decryption. Default is the English alphabet.</param>
         /// <returns>The decrypted message.</returns>
         public static string Decrypt(string message, int key, string alphabet = "abcdefghijklmnopqrstuvwxyz")
         {
@@ -55,8 +55,8 @@ namespace Ciphers.NET
         /// <summary>
         /// Decrypts a message using all possible keys of the Caesar cipher with selected alphabet.
         /// </summary>
-        /// <param name="message">The message to dencrypt.</param>
-        /// <param name="alphabet">The alphabet to use for the dencryption. Default is the English alphabet.</param>
+        /// <param name="message">The message to decrypt.</param>
+        /// <param name="alphabet">The alphabet to use for the decryption. Default is the English alphabet.</param>
         /// <returns>A dictionary where the key is the decryption key and the value is the decrypted message.</returns>
         public static Dictionary<int, string> Decrypt(string message, string alphabet = "abcdefghijklmnopqrstuvwxyz")
         {

@@ -76,7 +76,7 @@ namespace Ciphers.NET
                     }
                     else
                     {
-                        encryptedMessage.Append(character);
+                        decryptedMessage.Append(character);
                     }
                 }
                 else

@@ -4,6 +4,27 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Ciphers.NET</Title>
+    <Version>1.0.0</Version>
+    <Copyright>Copyright (c) 2024 Griske24</Copyright>
+    <RepositoryUrl>https://github.com/Griske24/Ciphers.NET</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Description>A .NET package for text encryption and decryption using classic ciphers with customizable parameters and additional functions. Supported ciphers: A1Z26, Affine, Atbash, Caesar, Morse.</Description>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+    <PackageId>Ciphers.NET</PackageId>
+    <Authors>Griske</Authors>
+    <Product>Ciphers.NET</Product>
+    <PackageTags>ciphers a1z26 affine atbash caesar morse crypto encrypt decrypt encode decode</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
